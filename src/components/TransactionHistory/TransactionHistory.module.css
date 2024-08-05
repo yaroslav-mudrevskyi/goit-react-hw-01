@@ -1,0 +1,32 @@
+.table {
+  width: 500px;
+  margin: 50px auto;
+  border-collapse: collapse;
+  & th,
+  td {
+    width: calc(100% / 3);
+    border: 1px solid #312323;
+  }
+}
+
+.title th {
+  padding: 10px 0;
+  color: #dedcdc;
+  background-color: rgb(48, 45, 45);
+}
+
+.data {
+  & td {
+    padding: 10px 50px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+}
+
+td:first-child {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: var(--color-gray-light);
+}

@@ -1,0 +1,21 @@
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.online {
+  font-weight: 500;
+  color: var(--color-green);
+}
+
+.offline {
+  font-weight: 500;
+  color: var(--color-red);
+}

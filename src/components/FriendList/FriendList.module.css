@@ -1,0 +1,17 @@
+.element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.item {
+  text-align: center;
+  padding: 25px;
+  border-radius: 8px;
+  border: 2px solid var(--color-black);
+  box-shadow: rgba(12, 12, 237, 0.25) 0px 50px 100px -20px,
+    rgba(215, 12, 12, 0.3) 0px 30px 60px -30px;
+  background-color: var(--color-mainBackground);
+}
